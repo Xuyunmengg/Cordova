@@ -1,0 +1,448 @@
+/* 导航栏 */
+/* #A{
+	width: 100%;
+} */
+#nav{
+	width: 100%;
+	opacity:0.9;
+	background-color: #323232;
+	color: white;
+}
+#nav .icon-bar{
+	color: white;
+}
+#nav li a{
+	color: white;
+}
+.img{
+	margin-top: -15px;
+	width: 200px;
+	height: 50px;
+	margin-left: -200px;
+}
+.search{
+	border-radius: 5px;
+	margin-top: 13px;
+}
+/* 第一部分 */
+#one{
+	background: #101010;
+	color: white;
+	padding-top: 50px;
+	width: 100%;
+}
+.bot{
+	width: 330px;
+	height: 380px;
+	margin-top: 40px;
+}
+.cordova{
+	font-size: 50px;
+}
+.word{
+	margin-top: 90px;
+	margin-left: 50px;
+}
+.word h4{
+	padding-top: 15px;
+}
+.block{
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+}
+
+.apple{
+	width: 200px;
+	height: 50px;
+	margin-top: -160px;
+	margin-left: 535px;
+}
+.button{
+	margin-left: 515px;
+	
+}
+.button button{
+	width: 200px;
+	height: 60px;
+	margin-left: 20px;
+	margin-bottom: 70px;
+}
+.newactive{
+	background: #101010;
+}
+
+/* 第二部分 */
+/* 背景色 */
+#two{
+	background: rgba(42,42,42);
+	height: 150px;
+	
+}
+.col-md-4{
+	margin-top: 30px;
+}
+#sprite_shared_code{
+	background: url(https://cordova.apache.org/static/img/value-prop-sprite.svg) 0px 0;
+}
+
+#two .sprite_img{
+    position: relative;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 85px;
+    height: 85px;
+    background-repeat: no-repeat;
+    background-size: 255px 85px;
+}
+#sprite_shared_code p {
+    top: 60%;
+    position: relative;
+    transform: translateY(-50%);
+    padding-left: 10px;
+	font-size: 25px;
+	color: white;
+	width: 200px;
+	margin-left: 100px;	
+}
+#sprite_offline{
+	    background: url(https://cordova.apache.org/static/img/value-prop-sprite.svg) 50% 0;
+}
+#sprite_offline p {
+    top: 60%;
+    position: relative;
+    transform: translateY(-50%);
+    padding-left: 10px;
+	font-size: 25px;
+	color: white;
+	width: 200px;
+	margin-left: 100px;	
+}
+#sprite_apis{
+	    background: url(https://cordova.apache.org/static/img/value-prop-sprite.svg) 100% 0;
+}
+#sprite_apis p {
+    top: 60%;
+    position: relative;
+    transform: translateY(-50%);
+    padding-left: 10px;
+	font-size: 25px;
+	color: white;
+	width: 200px;
+	margin-left: 100px;	
+}
+
+/* /第三部分 */
+.p{
+	font-size: 45px;
+	margin-top: 20px;
+	color: goldenrod;
+	
+}
+
+.number1{
+	width: 65px;
+	height: 65px;
+	border: 1px cadetblue solid;
+	background: cadetblue;
+	border-radius: 50%;
+	margin-left: -130px;
+	margin-top: 25px;
+}
+.number1 h3{
+	color: white;
+}
+.h3{
+	color: #C0C0C0;
+}
+.p1{
+	font-size: 17px;
+}
+.words{
+	margin-left: -100px;
+}
+.succ{
+	margin-left: -30px;
+	background: white;
+}
+.s{
+	background: white;
+}
+.succ a{
+	background: white;
+}
+
+
+/* 右边 */
+.left{
+	width: 450px;
+	height: 135px;
+	border: 0px solid;
+	margin-left: 30px;
+	margin-top: 35px;
+	background: #E3E3E3;
+}
+.left h4{
+	margin-left: 30px;
+	position: absolute;
+	margin-top: 25px;
+}
+#left1{
+	width: 450px;
+	height: 50px;
+	border: 0px solid;
+	margin-top: 90px;
+	background: #ADADAD;
+	float: right;
+}
+#left1 button{
+	margin-left: 370px;
+	margin-top: 10px;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: white;
+    border: 0px solid #ddd;
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #ADADAD;
+    border-color: #337ab7;
+}
+/* 第四部分 */
+#four{
+	background: #101010;
+}
+.sub{
+	color: #F0AD4E;
+	font-size: 45px;
+}
+.see{
+	font-size: 25px;
+	color: white;
+}
+.see span{
+	color: #31B0D5;
+}
+.cor{
+	font-size: 20px;
+	color: #C0C0C0;
+}
+#ios{
+	background: #333333;
+	height: 150px;
+	line-height: 150px;
+}
+#ios li{
+	 list-style-type:none;
+}
+.ioss img{
+	max-width: 100%;
+}
+
+/* 第五部分 */
+#five{
+	background: #101010;
+}
+.block{
+	width: 220px;
+	height: 510px;
+	border: 1px black solid ;
+	margin-top: 50px;
+	background: #333333;
+	margin-left: 32px;
+}
+.img1{
+	margin-top: 30px;
+	width: 70px;
+	height: 70px;
+	padding-bottom: 20px;
+}
+.img2{
+	margin-top: 20px;
+	width: 130px;
+	height: 80px;
+	padding-bottom: 20px;
+}
+.img3{
+	margin-top: 20px;
+	width: 130px;
+	height: 80px;
+	padding-bottom: 20px;
+}
+.img4{
+	margin-top: 20px;
+	width: 130px;
+	height: 80px;
+	padding-bottom: 20px;
+}
+.img5{
+	margin-top: 30px;
+	width: 60px;
+	height: 70px;
+	padding-bottom: 20px;
+}
+.img6{
+	margin-top: 20px;
+	width: 130px;
+	height: 80px;
+	padding-bottom: 20px;
+}
+.img7{
+	margin-top: 30px;
+	width: 60px;
+	height: 80px;
+	padding-bottom: 20px;
+}
+.img8{
+	margin-top: 30px;
+	width: 110px;
+	height: 80px;
+	padding-bottom: 20px;
+}
+.img9{
+	margin-top: 30px;
+	width: 80px;
+	height: 80px;
+	padding-bottom: 20px;
+}
+.img10{
+	margin-top: 60px;
+	width: 150px;
+	height: 50px;
+	padding-bottom: 20px;
+}
+.img11{
+	margin-top: 40px;
+	width: 160px;
+	height: 70px;
+	padding-bottom: 20px;
+}
+#five a{
+	font-size: 17px;
+}
+
+/* 第六部分 */
+#six{
+	background: #101010;
+}
+.a{
+	margin-top: 30px;
+}
+
+/* 第七部分 */
+#seven{
+	background: #101010;
+}
+.con{
+	width: 220px;
+	height: 400px;
+	border: 1px black solid ;
+	margin-top: 50px;
+	background: #333333;
+	margin-left: 32px;
+	color: white;
+}
+#seven a{
+	font-size: 18px;
+	margin-top: 20px;
+}
+#seven p{
+	font-size: 15px;
+	margin-top: 15px;
+}
+
+.Simg{
+	margin-top: 40px;
+	padding-bottom: 20px;
+	height: 130px;
+}
+.Simg2{
+	margin-top: 40px;
+	width: 115px;
+	height: 130px;
+	padding-bottom: 20px;
+}
+.Simg1{
+	margin-top: 40px;
+	width: 130px;
+	height: 130px;
+	padding-bottom: 20px;
+}
+/* 第二行方块 */
+.er{
+	margin-right: 20px;
+}
+/* 第三行方块 */
+.black{
+	height: 40px;
+}
+/* 底部 */
+.Fp1{
+	font-size: 45px;
+	color: #31B0D5;
+	margin-left: 40px;
+}
+.Fp2{
+	font-size: 45px;
+	color: #31B0D5;
+	margin-top: 30px;
+	margin-left: 600px;
+}
+
+#footer{
+	background-color: #f2f2f2;
+}
+#footer .general{
+	margin-left: 55px;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #f2f2f2;
+    border: 0px solid #ddd;
+	margin-left: 40px;
+	
+}
+.general{
+	color: #999999;
+	font-size: 17px;
+}
+#footer .list-group-item{
+	color: #40D2B1;
+}
+.help{
+	color: black;
+	font-size: 18px;
+}
+.report{
+	font-size: 17px;
+}
+.buttons{
+	width: 160px;
+	height: 50px;
+}
+.follow{
+	margin-top: 20px;
+	font-size: 17px;
+	position: absolute;
+}
+.buttons1{
+	margin-top: 30px;
+}
+.Copyright{
+	margin-left: 40px;
+}
+.Copyright p{
+	font-size: 18px;
+}

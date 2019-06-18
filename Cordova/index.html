@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/index.css" rel="stylesheet">
+		<title></title>
+	</head>
+	<body>
+		<!-- 顶部	导航栏 -->
+		<nav id="nav" class="nav navbar-default navbar-fixed-top">
+			<div class="container">
+				<!-- 小屏幕按钮 -->
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="" class="navbar-brand">
+						<img class="img" src="img/logo.png">
+					</a>
+				</div>
+				<!-- 小屏幕按钮   -->
+				<!-- 大屏幕导航 -->
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right text-center">
+						<li class="newactive"><a href="index.html">文档</a></li>
+						<li><a href="unit.html">插件</a></li>
+						<li><a href="index.html">博客</a></li>
+						<li><a href="index.html">有助于</a></li>
+						<li><a href="index.html">入门</a></li>
+						<li>
+							<input type="text" class="search" placeholder="search" />
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- 第一部分 -->
+		<section id="one">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-3">
+						<img class="bot" src="img/cordova_bot.png">
+					</div>
+					<div class="col-md-5 word">
+						<img src="https://cordova.apache.org/static/img/cordova-logo-newbrand-textonly.svg" />
+						<h4>带有<strong>HTML</strong>，<strong>CSS</strong>和<strong>JS</strong>的移动应用程序</h4>
+						<h4>使用<strong>一个代码库</strong>定位多个平台的移动应用程序</h4>
+						<h4>免费和<strong>开源</strong></h4>
+
+					</div>
+					<div class="col-md-2"></div>
+				</div>
+				<div class="row">
+					<img class="apple" src="https://cordova.apache.org/static/img/platform-logos.svg" />
+				</div>
+				<div class="button">
+					<button type="button" class="btn btn-info">入门</button>
+					<button type="button" class="btn btn-info">文档</button>
+				</div>
+			</div>
+		</section>
+
+		<!-- 第二部分 -->
+		<section id="two">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="sprite_img" id="sprite_shared_code">
+							<p>Reusable code across platforms</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="sprite_img" id="sprite_offline">
+							<p>Support for offline scenarios</p>
+						</div>
+
+					</div>
+					<div class="col-md-4">
+						<div class="sprite_img" id="sprite_apis">
+							<p>Access native device APIs</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- 第三部分 -->
+		<section id="three">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-12">
+						<p class="p">Get Started Fast</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 text-center">
+						<div class="number1">
+							<h3>1</h3>
+						</div>
+					</div>
+					<div class="col-md-8 words">
+						<h3 class="h3">Installing Cordova</h3>
+						<p class="p1">
+							Cordova command-line runs on Node.js and is available on NPM.
+							Follow platform specific guides to install additional platform
+							dependencies. Open a command prompt or Terminal, and type
+							npm install -g cordova.
+						</p>
+					</div>
+					<div class="col-md-3">
+						<div class="left">
+							<h4>$ npm install -g cordova</h4>
+							<div id="left1">
+								<button type="button" class="btn btn-info">Copy</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 text-center">
+						<div class="number1">
+							<h3>2</h3>
+						</div>
+					</div>
+					<div class="col-md-8 words">
+						<h3 class="h3">Create a project</h3>
+						<p class="p1">
+							Create a blank Cordova project using the command-line tool. Navigate
+							 to the directory where you wish to create your project and type cordova 
+							 create <path>.For a complete set of options, type cordova help create.
+						</p>
+					</div>
+					<div class="col-md-3">
+						<div class="left">
+							<h4>$ cordova create MyApp</h4>
+							<div id="left1">
+								<button type="button" class="btn btn-info">Copy</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 text-center">
+						<div class="number1">
+							<h3>3</h3>
+						</div>
+					</div>
+					<div class="col-md-8 words">
+						<h3 class="h3">Add a platform</h3>
+						<p class="p1">
+							After creating a Cordova project, navigate to the project directory. 
+							From the project directory, you need to add a platform for which you 
+							want to build your app.To add a platform, type cordova platform add 
+							For a complete list of platforms you can add, run cordova platform.
+						</p>
+					</div>
+					<div class="col-md-3">
+						<div class="left">
+							<h4>$ cd MyApp<br />
+								$ cordova platform add 
+							</h4>
+							<div id="left1">
+								<button type="button" class="btn btn-info">Copy</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 text-center">
+						<div class="number1">
+							<h3>4</h3>
+						</div>
+					</div>
+					<div class="col-md-8 words">
+						<h3 class="h3">Run your app</h3>
+						<p class="p1">
+							From the command line, run cordova run <platform name>.
+						</p>
+					</div>
+					<div class="col-md-3">
+						<div class="left">
+							<h4>$ cordova run browser</h4>
+							<div id="left1">
+								<button type="button" class="btn btn-info">Copy</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 text-center">
+						<div class="number1">
+							<h3>5</h3>
+						</div>
+					</div>
+					<div class="col-md-8 words">
+						<h3 class="h3">Common next steps</h3>
+						<div class="list-group succ">
+						  <a href="#" class="list-group-item list-group-item-success">Read the docs</a>
+						  <a href="#" class="list-group-item list-group-item-success">Add a Plugin</a>
+						  <a href="#" class="list-group-item list-group-item-success">Customize app icons</a>
+						  <a href="#" class="list-group-item list-group-item-success">Configure Your App</a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		
+		<!-- 第四部分-->
+		<section id="four">
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-md-12 sub">
+						<p>Supported Platforms</p>
+					</div>
+					<div class="col-md-12 see">
+						<p>See a list of <a href=""><span>features supported</span></a> in each platform</p>
+					</div>
+					<div class="col-md-12 cor">
+						<p>Cordova wraps your HTML/JavaScript app into a native container which can access the device <br />
+							functions of several platforms. These functions are exposed via a unified JavaScript API, allowing you to <br />
+							easily write one set of code to target nearly every phone or tablet on the market today and publish to  <br />
+							their app stores.   
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="ios">
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="ioss">
+							<li>
+								<img src="img/3rdparty_logo_sprite.svg" />
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="four">
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-md-12 sub">
+						<p>Cordova Tools</p>
+					</div>
+					<div class="col-md-12 see">
+						<p>A diverse ecosystem of command line tools, JavaScript frameworks,
+						 and cloud<br /> services exist that augment Cordova</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- 第五部分 -->
+		<section id="five">
+			<div class="">
+				<div class="row">
+					<div class="col-md-2 block">
+						<img class="img1" src="img/phonegap.svg" ><br />
+						<div class="text-left">
+							<a href="">Adobe PhoneGap</a>
+							<p>PhoneGap is the original and most popular distribution of Apache 
+								Cordova. Turn your HTML, CSS and JavaScript into an app on your device
+								in minutes using our simple desktop and developer apps.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-2 block">
+						<img class="img2" src="img/ionic.png" ><br />
+						<div class="text-left">
+							<a href="">Lonic Framework</a>
+							<p>Ionic is a front-end SDK for building cross-platform mobile 
+								apps. Built on top of Angular, Ionic also provides a platform
+								 for integrating services like push notifications and analytics.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-2 block">
+						<img class="img3" src="img/monaca.png" ><br />
+						<div class="text-left">
+							<a href="">Monaca</a>
+							<p>Comprehensive cloud-powered and framework-agnostic set 
+								of tools Monaca supports both online and offline development, 
+								debugging with live-reload feature and cloud build experience.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-2 block">
+						<img class="img4" src="img/onsen.png" ><br />
+						<div class="text-left">
+							<a href="">Onsen UI</a>
+							<p>Custom Elements-based HTML5 framework offers a large selection 
+								of components and responsive layout support. Onsen UI lets you 
+								create professionally designed multiplatform apps without acquiring 
+								additional skillset.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-2 block">
+						<img class="img5" src="img/visual_studio_white.png" ><br />
+						<div class="text-left">
+							<a href="">Visual Studio</a>
+							<p>Popular IDE for building cross-platform apps for Android, 
+								iOS, and Windows. Complete with advanced build and debugging support.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-2 block">
+						<img class="img6" src="img/appbuilder.png" ><br />
+						<div class="text-left">
+							<a href="">App Builder</a>
+							<p>App Builder is a complete IDE for Microsoft Windows which 
+								allows to create HTML5 and native apps without programming knowledge.
+								 Offers dozens of controls and actions ready to be used in your apps 
+								 and lot of app samples to learn it.
+							</p>
+						</div>
+					</div>
+					<!-- 第二部分长方形 -->
+					<div class="col-md-2 block">
+						<img class="img7" src="img/framework7.png" ><br />
+						<div class="text-left">
+							<a href="">Framework7</a>
+							<p>Framework7 is a free and open source mobile HTML framework 
+								for developing hybrid mobile apps or web apps with iOS & Android 
+								native look and feel.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-2 block">
+						<img class="img8" src="img/evothings.png" ><br />
+						<div class="text-left">
+							<a href="">Evothings Studio</a>
+							<p>Evothings Studio provides Cordova developers with a rapid 
+								development workflow, tutorials and example apps for the Internet
+								 of Things. Support for Bluetooth Low Energy (BLE) and other IoT 
+								 related technologies.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-2 block">
+						<img class="img9" src="img/appstudio.png" ><br />
+						<div class="text-left">
+							<a href="">NSB/AppStudio</a>
+							<p>NSB/AppStudio is an IDE for webapps/native apps. One step 
+								install includes complete PhoneGap integration, plus Bootstrap, 
+								jQuery Mobile and jqWidgets. Drag and Drop Designer. Easy 
+								programming in JavaScript or BASIC. Windows and MacOS.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-2 block">
+						<img class="img10" src="img/mobiscroll.png" ><br />
+						<div class="text-left">
+							<a href="">Mobiscroll</a>
+							<p>Mobiscroll is a collection of cross platform UI controls
+								 for delivering polished iOS, Android & Windows Phone apps. 
+								 Framework agnostic, use it with plain Javascript, jQuery, 
+								 Angular, React or Knockout.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-2 block">
+						<img class="img11" src="img/instabug.png" ><br />
+						<div class="text-left">
+							<a href="">Instabug</a>
+							<p>Instabug provides Cordova developers with a bug reporting 
+								and in-app feedback solution. With a one minute install guide, 
+								it enables users to seamlessly report bugs while automatically 
+								attaching details such as network logs, repro-steps, etc.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- 第六部分 -->
+		<section id="six">
+			<div class="container text-center">
+				<div class="row a">
+					<div class="col-md-12 sub">
+						<p>Cordova App Showcase</p>
+					</div>
+					<div class="col-md-12 see">
+						<p>See other apps that use Cordova</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<!-- 第七部分 -->
+		<section id="seven">
+			<div class="text-center">
+				<!-- 第一行方块 -->
+				<div class="row">
+					<div class="col-md-2 con">
+						<img class="Simg" src="img/Pacifica.png" >
+						<div class="text-left">
+							<a href="">Pacifica - Stress and Anxiety Relief</a>
+							<p>Daily tools for stress, anxiety and depression based on Cognitive
+								Behavioral Therapy and Mindfulness.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-2 con">
+						<img class="Simg2" src="img/Sworkit.png" ><br />
+						<div class="text-left">
+							<a href="">Sworkit-Personal Workout Trainer</a>
+							<p>Sworkit delivers on-demand, personalized video exercises 
+								to millions of users to help them stay fit.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-2 con">
+						<img class="Simg2" src="img/FanReact.png" ><br />
+						<div class="text-left">
+							<a href="">FanReact-Sports Fans Social App</a>
+							<p>
+								Sports only social app for fans to share their experiences.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-2 con">
+						<img class="Simg2" src="img/JustWatch.png" ><br />
+						<div class="text-left">
+							<a href="">JustWatch-Strwamign Search Engine</a>
+							<p>
+								JustWatch is the easiest way to see if your favorite movies
+								or TV shows are available on any streaming provider.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-2 con">
+						<img class="Simg2" src="img/Gudog.png" ><br />
+						<div class="text-left">
+							<a href="">Gudog-Dog Boarding</a>
+							<p>
+								Gudog brings together dog owners and trustworthy dog
+								sitters who offer Home Dog Boarding, Dog Walking and Doggy Daycare.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-2 con">
+						<img class="Simg2" src="img/SeriesSeven.png" ><br />
+						<div class="text-left">
+							<a href="">Series Seven</a>
+							<p>
+								Series Seven allows you to track your favorite TV shows and
+								 easily get all information about TV show. You'll never miss new e...
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- 第二行方块 -->
+				<div class="row er">
+					<div class="col-md-8"></div>
+					<div class="col-md-2 con">
+						<img class="Simg" src="img/Keepe.png" >
+						<div class="text-left">
+							<a href="">Keepe-Handyman on Demand</a>
+							<p>
+								Get a Handyman or Plumber to your House in 1 Hour. Keepe 
+								delivers the right contractor at your doorstep.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-2 con">
+						<img class="Simg" src="img/CleverBaby.png">
+						<div class="text-left">
+							<a href="">Clever Baby-Baby Log & Tracker</a>
+							<p>
+								Clever Baby is the easiest way to track your baby's 
+								well-being, growth and development.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- 第三行方块 -->
+				<div class="row">
+					<div class="col-md-2 con">
+						<img class="Simg" src="img/Buildr.png">
+						<div class="text-left">
+							<a href="">Builder</a>
+							<p>
+								You are using PhoneGap Build to develop your Apps? Then 
+								Buildr will be your new best friend. Rebuild, pull and monitor your a...
+							</p>
+						</div>
+					</div>
+					<div class="col-md-2 con">
+						<img class="Simg" src="img/Graded.png">
+						<div class="text-left">
+							<a href="">Graded</a>
+							<p>
+								The easiest and prettiest way to check your grades from 
+								Home Access Center (HAC)
+							</p>
+						</div>
+					</div>
+					<div class="col-md-2 con">
+						<img class="Simg" src="img/OneVerse.png">
+						<div class="text-left">
+							<a href="">One Verse BIBLE</a>
+							<p>
+								One Verse BIBLE is a beautifully crafted Bible app to focus more
+								 on each Bible Verse and to compare easily with various Bible...
+							</p>
+						</div>
+					</div>
+					<div class="col-md-2 con">
+						<img class="Simg" src="img/SparkChess.png">
+						<div class="text-left">
+							<a href="">SparkChess</a>
+							<p>
+								Finally, a game of chess everyone can enjoy. Play chess against
+								 the computer or challenge your friends in online multiplayer...
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row black">
+					<div class="col-md-12"></div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<!-- 底部 -->
+		<section id="footer">
+			<div class="row">
+				<div class="col-md-4 Fp1">
+					<p>More Resources</p>
+				</div>
+				<div class="col-md-5"></div>
+				<div class="col-md-3 Fp2">
+					<p>Contribute</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<p class="general">GENERAL</p>
+					<div class="list-group">
+					  <a href="#" class="list-group-item list-group-item-success">Apache PROJECT Page</a>
+					  <a href="#" class="list-group-item list-group-item-success">Source Distribution</a>
+					  <a href="#" class="list-group-item list-group-item-success">License</a>
+					  <a href="#" class="list-group-item list-group-item-success">Artwork</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<p class="general">DEVELOPMENT</p>
+					<div class="list-group">
+					  <a href="#" class="list-group-item list-group-item-success">Source Code</a>
+					  <a href="#" class="list-group-item list-group-item-success">Issue Tracker</a>
+					  <a href="#" class="list-group-item list-group-item-success">Stack Overflow</a>
+					  <a href="#" class="list-group-item list-group-item-success">Mailing List</a>
+					  <a href="#" class="list-group-item list-group-item-success">Nightly builds</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<p class="general">APACHE SOFTWARE FOUNDATION</p>
+					<div class="list-group">
+					  <a href="#" class="list-group-item list-group-item-success">About ASF</a>
+					  <a href="#" class="list-group-item list-group-item-success">Become a Sponsor</a>
+					  <a href="#" class="list-group-item list-group-item-success">Thanks</a>
+					  <a href="#" class="list-group-item list-group-item-success">Security</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<p class="help"><strong>Help Cordova move forward!</strong> </p>
+					<p class="report">Report bugs, improve the docs, or<br /> contribute to the code.</p>
+					<button class="btn btn-info buttons">Learn More</button><br />
+					<a class="follow" href="">Follow @apachecordova</a><br />
+					
+					<div class="btn-group buttons1" role="group" aria-label="...">
+					  <button type="button" class="btn btn-default">Slack</button>
+					  <button type="button" class="btn btn-default">3169</button>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row Copyright">
+				<div class="col-md-12">
+					<p>
+						Copyright © 2012, 2013, 2015 The Apache Software Foundation, Licensed under the <a href="">Apache License, Version 2.0</a> .<br />
+						Apache and the Apache feather logos are <a href="">trademarks</a> of The Apache Software Foundation. <br />
+						"Raleway" font used under license. For details see the <a href="">attributions page</a>.<br />
+					</p>
+				</div>
+			</div>
+		</section>
+		
+		
+		
+		
+
+		<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+			$(function() {
+				// 小屏幕导航点击关闭
+				$(".navbar-collapse a").click(function() {
+					//菜单向上折叠隐藏
+					$(".navbar-collapse").collapse('hide');
+				});
+			});
+		</script>
+	</body>
+</html>

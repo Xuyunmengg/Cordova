@@ -1,0 +1,251 @@
+/* 头部 */
+#nav{
+	width: 100%;
+	opacity:0.9;
+	background-color: #323232;
+	color: white;
+}
+#nav .icon-bar{
+	color: white;
+}
+#nav li a{
+	color: white;
+}
+.img{
+	margin-top: -15px;
+	width: 200px;
+	height: 50px;
+	margin-left: -200px;
+}
+.search{
+	border-radius: 5px;
+	margin-top: 13px;
+}
+.newactive{
+	background: #101010;
+}
+/* 第一部分 */
+.get{
+	font-size: 45px;
+	margin-top: 80px;
+	color: goldenrod;
+}
+.form-control{
+	margin-left: 300px;
+	
+}
+.unitImg{
+	width: 82px;
+	height: 155px;
+	margin-top: 20px;
+	float: left;
+	margin-left: -85px;
+}
+.plugin{
+	font-size: 24px;
+	color: #8C8C8C;
+	margin-top: 35px;
+}
+.bit{
+	margin-left: 40px;
+	font-size: 17px;
+}
+.btns .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 0px solid transparent;
+    border-radius: 4px;
+	margin-left: 20px;
+	margin-top: 20px;
+	color: #31B0D5;
+}
+
+/*  */
+#two{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+#two p{
+	font-size: 20px;
+	margin-top: 30px;
+}
+#two button{
+	height: 40px;
+	width: 150px;
+	font-size: 17px;
+}
+
+#two .buttons{
+	width: 330px;
+}
+
+#three{
+	width: 95%;
+	background: #E5E5E5;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.location{
+	font-size: 20px;
+	color: #66AFE9;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+.num0{
+	font-size: 17px;
+	margin-top: 20px;
+}
+.imgs{
+	width: 20px;
+	height: 20px;
+	margin-top: 20px;
+	margin-right: 30px;
+}
+.photos{
+	margin-left: 15px;
+	font-size: 17px;
+	display: inline-block;
+	
+}
+
+.res .iOS{
+	background-image: url(https://cordova.apache.org/static/img/platform-logos-all-sprite.svg);
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-size: 550px 50px;
+}
+.iOS{
+	background-position: 10%;
+	margin-left: 15px;
+	font-size: 80px;
+}
+.res .Android {
+    background-image: url(https://cordova.apache.org/static/img/platform-logos-all-sprite.svg);
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-size: 550px 50px;
+	margin-left: 15px;
+}
+.res .Windows {
+    background-image: url(https://cordova.apache.org/static/img/platform-logos-all-sprite.svg);
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-size: 550px 50px;
+}
+.res .browser{
+    background-image: url(/static/img/platform-logos-all-sprite.svg);
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-size: 550px 50px;
+}
+
+.browser{
+    background-position: 92.2%;
+}
+.windows {
+    background-position: 20%;
+}
+.ago{
+	text-align: right;
+	margin-right: 130px;
+	font-size: 17px;
+}
+
+/*  */
+#four{
+	margin-top: 30px;
+	
+}
+#four button{
+	width: 95%;
+	height: 50px;
+	font-size: 18px;
+	color: black;
+}
+.results{
+	margin-left: 35px;
+	padding-top: 30px;
+	font-size: 18px;
+}
+
+/* 底部 */
+.Fp1{
+	font-size: 45px;
+	color: #31B0D5;
+	margin-left: 40px;
+}
+.Fp2{
+	font-size: 45px;
+	color: #31B0D5;
+	margin-top: 30px;
+	margin-left: 600px;
+}
+
+#footer{
+	background-color: #f2f2f2;
+	margin-top: 150px;
+}
+#footer .general{
+	margin-left: 55px;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #f2f2f2;
+    border: 0px solid #ddd;
+	margin-left: 40px;
+	
+}
+.general{
+	color: #999999;
+	font-size: 17px;
+}
+#footer .list-group-item{
+	color: #40D2B1;
+}
+.help{
+	color: black;
+	font-size: 18px;
+}
+.report{
+	font-size: 17px;
+}
+.buttons{
+	width: 160px;
+	height: 50px;
+}
+.follow{
+	margin-top: 20px;
+	font-size: 17px;
+	position: absolute;
+}
+.buttons1{
+	margin-top: 30px;
+}
+.Copyright{
+	margin-left: 40px;
+}
+.Copyright p{
+	font-size: 18px;
+} 
